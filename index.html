@@ -11,9 +11,11 @@
     <main>
         <h1>Conversor de Moedas</h1>
         <section>
-            <p>Quantos R$ você tem na carteira?</p>
-            <input type="number" name="valor" id="ivalor"> <br>
+            <form action="conversao.php" method="get">
+            <label for="valor">Quantos R$ você tem na carteira?</label>
+            <input type="number" name="valor" id="ivalor" step="0.01"> <br>
             <button type="submit">Converter</button>
+        </form>
         </section>
     </main>
 </body>

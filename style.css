@@ -37,8 +37,15 @@ h1 {
 }
 
 p {
+   color: white;
+   text-align: center;
+   font-size: 1.1rem;
+   padding: 20px;
+}
+
+label {
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     padding: 5px;
     width: 55%;
     margin-top: 9px;
